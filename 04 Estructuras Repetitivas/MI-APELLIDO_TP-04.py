@@ -45,5 +45,30 @@ while num_aleatorio != num_usuario:
     intentos +=1
 print(f"Adivinaste! para lograrlo necesitaste {intentos} intentos")
 
+#6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos 
+#entre 0 y 100, en orden decreciente.
+
+for i in range (100,1,-2):
+    print(i)
+
+#7) Crea un programa que calcule la suma de todos los números comprendidos entre 0 y un 
+#número entero positivo indicado por el usuario.
+
+num_natural=int(input("Ingrese un numero natural: "))
+sum_num=0
+
+for i in range (num_natural + 1):
+    sum_num += i
+
+print(f"La suma entre 0 y el {num_natural} es {sum_num}")
+
+#8) Escribe un programa que permita al usuario ingresar 100 números enteros. Luego, el
+#programa debe indicar cuántos de estos números son pares, cuántos son impares, cuántos son 
+#negativos y cuántos son positivos. (Nota: para probar el programa puedes usar una cantidad 
+#menor, pero debe estar preparado para procesar 100 números con un solo cambio).
+
+
+
+
 
 
