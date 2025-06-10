@@ -123,6 +123,12 @@ b=float(input("Ingrese el segundo numero: "))
 c=float(input("Ingrese el tercer numero: "))
 calcular_promedio(a, b, c)
 
+def saludo(nombre):
+    return f"Hola, {nombre}!"
+
+print(saludo("Ana"))
+
+
 
 
               
